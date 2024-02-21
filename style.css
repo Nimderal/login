@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+#logpage{
+    display: flex;
+    width: 50vw;
+    height: 60vh;
+    justify-content: center;  
+    border-radius: 30px;
+    box-shadow: 1px 2px grey;
+}
+
+
+#welcome{
+    width: 50%;
+    display: grid;
+    background: linear-gradient(rgba(255, 192, 203, 0.5),rgba(255, 192, 203, 0.5)), url("./image_folder/ladylaptop.jpg");
+    background-size: cover;
+    text-align: left; 
+    justify-content: left;
+    padding-left: 40px;
+    place-items: center; 
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 30px 0px 0px 30px;
+}
+
+
+#front{
+    width: 50%;
+    background-color: aliceblue;
+    text-align: left;
+    justify-content: center;
+    padding:2em 2em;
+    border-radius: 0px 30px 30px 0px;
+}
+
+#sample{
+    font-size: 35px;
+}
+
+
+#come{
+    color:black;
+    font-size: 20px;
+    opacity: 0.2; 
+}
+
+
+#input1, #input2{
+    padding: 10px 60px;
+    width: 60%;
+    border-radius: 10px;
+    border: none;
+}
+
+
+#both{
+    display: flex;
+}
+
+
+#both{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+#purple{
+    color: pink;
+    opacity: 1;
+
+}
+
+
+#forget{
+    margin-right: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    color: pink;
+    cursor: pointer;
+}
+
+
+#nu{
+    margin-top: 60px;
+    opacity: 0.4;
+}
+
+#purple{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
